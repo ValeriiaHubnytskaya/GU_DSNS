@@ -1,0 +1,191 @@
+  body{
+      margin: auto;
+      background-image: url("https://img.freepik.com/free-photo/paper-textured-background_53876-30486.jpg?w=996&t=st=1687440156~exp=1687440756~hmac=1d03f359b1d419c6a2d371e40edf1ec86c5e7c8daaaacc8c27a56bf3f1d6d6d1") ;
+      background-size: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .headers{ 
+      display: flex;
+      background:rgba(10, 65, 194, 0.6) ;  
+      width: 100%;
+      height: 70px;
+      border-bottom: 1px solid rgb(13, 53, 13);
+  }
+ .dropdown{   
+    padding-top: 40px;
+    color: rgb(8, 41, 87);
+    display: inline-block;    
+    position: relative ; 
+    cursor: pointer;    
+    background: none; 
+    font-size: 20px;
+    font-stretch:ultra-condensed; 
+    width: 200px;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    text-decoration: none;
+ }
+
+ .dropdown-options {
+    display: none;    
+    position: absolute;
+    overflow: auto;
+    width: 200px;
+    background:rgb(255, 255, 255) ;   
+    margin-top: 1px;   
+    border: 1px solid  rgb(8, 41, 87);  
+  } 
+  .static-hover{
+     border-bottom: 1px solid  rgb(8, 41, 87);
+  }
+  .static-hover a{
+    color: rgb(8, 41, 87);
+    text-decoration: none;     
+ }
+  .dropdown:hover .dropdown-options {
+    display: block;   
+  }
+  
+  .static-hover:hover{
+    background:rgba(10, 65, 194, 0.6) ;  
+  
+  }
+  .main{
+    width: 75%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .logout{
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(8, 41, 87);   
+    font-family: 'Unbounded', cursive;   
+    cursor: pointer;
+  }
+  .headers #main-page{    
+    font-size: 24px;
+    color: rgb(8, 41, 87);   
+    font-family: 'Unbounded', cursive;   
+}
+.choice-date{
+  text-align: center;
+  margin: 30px 0 0 0;
+  cursor: pointer;
+}
+.choice-date a{
+  padding: 0 10px 5px 10px;
+  background:rgba(168, 188, 204, 0.4);
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+  border: 1px solid rgba(8, 41, 87, 0.9);  
+}
+.choice-date a:hover{
+  background:rgba(8, 41, 87, 0.9);
+  color: rgb(255, 253, 253);
+  border: 2px solid rgba(253, 253, 253, 0.9); 
+}
+.choice-date label{
+  padding: 0 10px 5px 10px;
+  background:rgba(168, 188, 204, 0.4);
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+  border: 1px solid rgba(8, 41, 87, 0.9);  
+}
+.choice-date input{
+  border: 1px solid rgba(8, 41, 87, 0.9);
+  background: rgb(255, 255, 255);
+  padding: 2px 10px 4px 10px;
+  border-radius: 5px;
+}
+.table-divisions{ 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.table-skud{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  min-width: 1000px;
+}
+
+
+.table-divisions  table{
+      margin: 30px;
+      min-width: 800px;
+      border-collapse: collapse;
+      line-height: 1.1; 
+  }
+  .table-skud table{
+    margin: 40px 0 0 20px;
+    border-collapse: collapse;
+    line-height: 1.1; 
+  }
+  
+  thead{  
+      background:rgba(8, 41, 87, 0.9) ;  
+      color: rgb(255, 253, 253);
+  }
+  table tr{
+      border: 1px solid black;
+      padding: 10px;
+      text-align:start ;
+      width: auto;
+  }
+  table td{
+      border: 1px solid black;
+      padding: 10px;
+  }
+
+  .row{
+      background:rgba(168, 188, 204, 0.4);
+  }
+
+  .form-auth{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10% auto;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 20px 0 0px 0;
+    font-family: 'Unbounded', cursive;
+    align-items: center;
+    background: rgba(158, 176, 202, 0.1);
+    /* justify-content: center; */
+
+  }
+  .form-auth label{
+     margin: 15px 0 0 0;
+  }
+  .form-auth input{
+   
+    border-radius: 5px;
+    padding: 7px 0 0 0;
+  }
+.form-auth a{ 
+  color: rgb(0, 38, 255);
+  margin: 10px 0 0 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.form-auth button{
+  margin: 15px 0 40px 0;
+  background: rgb(0, 38, 255);
+  height:28px;
+  width: 160px;
+  color: aliceblue;
+  font-family: 'Unbounded', cursive;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.but-forgot{
+  font-size: 12px;
+  height: auto;
+}
+
