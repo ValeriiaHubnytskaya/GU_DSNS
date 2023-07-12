@@ -106,10 +106,9 @@
 .table-skud{
   display: flex;
   flex-direction: row; 
-  justify-content: center;
+  justify-content:  center;
   min-width: 1000px;
 }
-
 
 .table-divisions  table{
       margin: 30px;

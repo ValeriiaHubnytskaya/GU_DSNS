@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    background-image: url("https://img.freepik.com/free-photo/paper-textured-background_53876-30486.jpg?w=996&t=st=1687440156~exp=1687440756~hmac=1d03f359b1d419c6a2d371e40edf1ec86c5e7c8daaaacc8c27a56bf3f1d6d6d1") ;
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    margin:  1% auto;
+    padding: 0 0 10px 0;
+  
+}
+ 
+.headers {
+    font-size: x-large;
+    font-family: 'Unbounded', cursive;
+    background:rgba(10, 65, 194, 0.6) ;  
+    color: rgb(8, 41, 87);  
+    text-align: center;
+   
+}
+.headers a{
+    color: rgb(8, 41, 87);
+    text-decoration: none;
+}
+
+.panel{
+     text-align: center;
+}
+.panel a{
+    text-decoration: none;
+    border: 1px solid rgba(8, 41, 87, 0.9);  
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background:rgba(168, 188, 204, 0.4);
+    color: rgb(8, 41, 87);    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 10px;
+    /* color: rgb(8, 41, 87); */
+    
+}
+.info span{
+    font-size: 15px;
+    padding: 5px 0 0 0;
+}
+.info label{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 0 30px;
+}
+.info a{
+    text-decoration: none;
+    border: 1px solid rgba(8, 41, 87, 0.9);  
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background:rgba(168, 188, 204, 0.4);
+    color: rgb(8, 41, 87);    
+    width: 90px;
+    margin: 10px 0 0 20px;
+}
+
+.info table{
+    margin: 10px ;
+    border-collapse: collapse;
+    line-height: 1.1; 
+}
+thead{  
+    background:rgba(8, 41, 87, 0.9) ;  
+    color: rgb(255, 253, 253);
+}
+table tr{
+    border: 1px solid black;
+    padding: 10px;
+    text-align:start ;
+    width: auto;
+}
+table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 18px;
+}
+.edit input{
+    margin: 0 0 10px 0;
+    width: 250px;
+}
+.edit select{
+    width: 260px;
+    margin: 0 0 10px 0;
+}
+.edit button{
+   width: 150px;
+   font-size: 18px;
+   border-radius: 5px;
+   margin: 0 0 0 50px;
+   background:rgba(8, 41, 87, 0.9) ;    
+   color: rgb(255, 253, 253);
+   cursor: pointer;
+}
