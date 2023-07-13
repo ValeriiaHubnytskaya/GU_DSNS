@@ -71,6 +71,7 @@ body{
     margin: 10px ;
     border-collapse: collapse;
     line-height: 1.1; 
+    table-layout: fixed
 }
 thead{  
     background:rgba(8, 41, 87, 0.9) ;  
@@ -108,4 +109,21 @@ table td{
    background:rgba(8, 41, 87, 0.9) ;    
    color: rgb(255, 253, 253);
    cursor: pointer;
+}
+.info .row1{
+    background: rgb(191, 176, 176);
+}
+
+.info-user table{
+    margin: 10px ;
+    line-height: 0.7; 
+    table-layout: fixed;
+    border-collapse: collapse;
+   
+}
+.info-user tbody tr:nth-child(odd){
+background: rgba(95, 161, 255, 0.56);
+}
+.info-user tbody tr:nth-child(even){
+    background: rgba(205, 205, 205, 0.545);
 }
